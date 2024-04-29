@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Updated Name",
+        "password": "5c29a959abce4eda5f0e7a4e7ea53dce4fa0f0abbe8eaa63717e2fed5f193d31",
+        "email": "update2@example.com",
+        "profilePicture": "teacher.jpg",
+        "id": 1
+    },
+    {
+        "name": "abc",
+        "email": "abc@example.com",
+        "password": "00c3f2bf9113d235b1a1c89ed3f221fc6f29bf682e6d9c191d2fb310f2034a59",
+        "profilePicture": "teacher.jpg",
+        "id": 2
+    },
+    {
+        "name": "riya",
+        "email": "riya@example.com",
+        "password": "00c3f2bf9113d235b1a1c89ed3f221fc6f29bf682e6d9c191d2fb310f2034a59",
+        "profilePicture": "3.jpg",
+        "id": 3
+    }
+]
