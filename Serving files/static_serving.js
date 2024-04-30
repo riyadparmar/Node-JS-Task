@@ -18,7 +18,6 @@ function serveStaticFile(res, filepath, contentType, responseCode = 200) {
     });
 }
 
-// Using an object to map file extensions to MIME types
 const mimeType = {
     '.html': 'text/html',
     '.js': 'text/javascript',
