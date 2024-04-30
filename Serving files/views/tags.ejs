@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJS Example</title>
+</head>
+<body>
+    <%# This is a comment and won't appear in the output %>
+    <h1>EJS Tags Example</h1>
+
+    <% var message = "Hello, World!"; %>
+    <% var unsafeString = "<script>alert('This could be unsafe!');</script>"; %>
+
+    <p><%= message %> - This is a safe output from EJS.</p>
+    <p><%- unsafeString %> - This is an unsafe unescaped output, be careful!</p>
+
+    <p>Literal tag example: &lt;% This will output &lt;% as text %&gt; </p>
+
+    <% if (true) { %>
+        <p>This will always show because the condition is always true.</p>
+    <% } %>
+
+    <ul>
+        <% for(var i = 0; i < 3; i++) { %>
+            <li>Item <%= i + 1 %></li>
+        <% } %>
+    </ul>
+</body>
+</html>
